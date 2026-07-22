@@ -26,6 +26,7 @@ const INITIAL_LISTINGS = [
     sellerName: "Verified Owner",
     badgesCount: 20524,
     emotesCount: 82,
+    accountUid: "1764914117",
     description: "Insane Level 74 Free Fire account with 20K+ likes. Features the extremely rare Phantom Bundle, Red Scarf, Green Criminal, top jerseys, Prime 7, Rose & Heart emotes, very old collection emotes, and 3 MAXED EVOLUTION weapons!",
     rareItems: ["Phantom Bundle", "Red Scarf", "Green Criminal", "Best Jerseys", "Prime 7", "Rose Emote", "Heart Emote", "3 Max Evos"],
     screenshots: [
@@ -77,6 +78,7 @@ const INITIAL_LISTINGS = [
     sellerName: "Verified Owner",
     badgesCount: 15400,
     emotesCount: 100,
+    accountUid: "1909016280",
     description: "Insane Level 71 Free Fire account. Features Red Criminal, Samurai Bundle, Purple Criminal, Bunny Bundle, Red Angelic, Doctor Bundle, 100+ old emotes, 12+ animation items, 1 look changer, and Prime 8. Includes 3 MAXED EVOS and 1 semi-maxed evo weapon!",
     rareItems: ["Red Criminal", "Samurai Bundle", "Purple Criminal", "Bunny Bundle", "Red Angelic", "Doctor Bundle", "100+ Old Emotes", "3 Max Evos"],
     screenshots: [
