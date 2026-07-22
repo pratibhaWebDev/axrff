@@ -189,7 +189,7 @@ export default function IDDetails() {
 
           </div>
 
-          {/* Middle Row: Level, Prime Level, Bundles Cards */}
+          {/* Middle Row: Level, Prime Level, Bundles, Vault, Skins, Evo Guns Cards */}
           <div className="grid grid-cols-3 gap-3">
             
             {/* Level Card */}
@@ -208,6 +208,24 @@ export default function IDDetails() {
             <div className="bg-[#111115] border border-gaming-border p-4 rounded-xl">
               <span className="text-[9px] text-gray-500 font-bold uppercase tracking-wider block mb-1">Bundles</span>
               <span className="font-display text-lg font-black text-gaming-cyan">{bundles}</span>
+            </div>
+
+            {/* Vault Card */}
+            <div className="bg-[#111115] border border-gaming-border p-4 rounded-xl">
+              <span className="text-[9px] text-gray-500 font-bold uppercase tracking-wider block mb-1">Vault Collection</span>
+              <span className="font-display text-lg font-black text-gaming-cyan">{account.vault || 0}</span>
+            </div>
+
+            {/* Skins Card */}
+            <div className="bg-[#111115] border border-gaming-border p-4 rounded-xl">
+              <span className="text-[9px] text-gray-500 font-bold uppercase tracking-wider block mb-1">Gun Skins</span>
+              <span className="font-display text-lg font-black text-gaming-cyan">{account.gunSkin || account.skins || 0}</span>
+            </div>
+
+            {/* Evo Guns Card */}
+            <div className="bg-[#111115] border border-gaming-border p-4 rounded-xl">
+              <span className="text-[9px] text-gray-500 font-bold uppercase tracking-wider block mb-1">Evo Guns</span>
+              <span className="font-display text-lg font-black text-gaming-cyan">{account.evoGunsCount || 0}</span>
             </div>
 
           </div>

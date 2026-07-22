@@ -263,9 +263,9 @@ export default function IDListings() {
 
                       {/* Details row */}
                       <div className="grid grid-cols-2 gap-2 mt-3 bg-black/45 p-2 rounded-xl text-[9px] text-gray-400 font-bold uppercase">
-                        <div>Skins: <span className="text-white font-black">{item.skinsCount}+</span></div>
-                        <div>Evo Guns: <span className="text-white font-black">{item.evoGunsCount}</span></div>
-                        <div>Diamonds: <span className="text-white font-black">💎{item.diamonds}</span></div>
+                        <div>Vault: <span className="text-white font-black">{item.vault || 0}</span></div>
+                        <div>Skins: <span className="text-white font-black">{item.gunSkin || item.skins || 0}</span></div>
+                        <div>Evo Guns: <span className="text-white font-black">{item.evoGunsCount || 0}</span></div>
                         <div>Login: <span className="text-white font-black">{item.loginMethod}</span></div>
                       </div>
 

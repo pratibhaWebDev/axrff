@@ -149,13 +149,13 @@ export default function Home() {
                   {/* Stats list */}
                   <div className="grid grid-cols-2 gap-2 mt-3 bg-black/35 p-2.5 rounded-xl border border-gaming-border text-[10px] font-bold text-gray-400 uppercase tracking-wide">
                     <div>
-                      Skins: <span className="text-white font-black">{item.skinsCount}+</span>
+                      Vault: <span className="text-white font-black">{item.vault || 0}</span>
                     </div>
                     <div>
-                      Evo Guns: <span className="text-white font-black">{item.evoGunsCount}</span>
+                      Skins: <span className="text-white font-black">{item.gunSkin || item.skins || 0}</span>
                     </div>
                     <div>
-                      Diamonds: <span className="text-white font-black">💎 {item.diamonds}</span>
+                      Evo Guns: <span className="text-white font-black">{item.evoGunsCount || 0}</span>
                     </div>
                     <div>
                       Login: <span className="text-white font-black">{item.loginMethod}</span>

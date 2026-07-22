@@ -1,3 +1,4 @@
+import { Vault } from 'lucide-react';
 import React, { createContext, useState, useEffect, useContext } from 'react';
 
 export const StoreContext = createContext();
@@ -12,13 +13,14 @@ const INITIAL_LISTINGS = [
   {
     id: "ff-premium-74",
     title: "Premium LVL 74 Account - Phantom & Green Criminal",
-    price: 12000,
+    price: 10000,
     level: 74,
     rank: "Heroic",
-    skinsCount: 380,
-    evoGunsCount: 3,
+    vault: 400,
+    gunSkin: 420,
+    evoGunsCount: 7,
     diamonds: 31,
-    loginMethod: "Facebook",
+    loginMethod: "Google",
     verified: true,
     status: "approved",
     sellerName: "Verified Owner",
@@ -65,10 +67,11 @@ const INITIAL_LISTINGS = [
     price: 16000,
     level: 71,
     rank: "Heroic",
-    skinsCount: 290,
-    evoGunsCount: 3,
+    vault: 380,
+    skins: 490,
+    evoGunsCount: 12,
     diamonds: 0,
-    loginMethod: "Facebook",
+    loginMethod: "Google",
     verified: true,
     status: "approved",
     sellerName: "Verified Owner",
